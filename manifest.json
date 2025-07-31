@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Math Direction Fix",
+  "version": "1.4",
+  "description": "Ensures math expressions display left-to-right (LTR) on ChatGPT when using Hebrew.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
