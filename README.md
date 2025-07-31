@@ -25,7 +25,7 @@ To install manually:
 3. Enable **Developer Mode**
 4. Click **"Load unpacked"** and select the folder containing the extension
 
-Once installed, visit [https://chatgpt.com](https://chatgpt.com), and enter a prompt like:
+Once installed, visit [https://chat.openai.com](https://chat.openai.com) or [https://chatgpt.com](https://chatgpt.com), and enter a prompt like:
 
 f: {1,2,…,10} → {a,b,…,n}
 
